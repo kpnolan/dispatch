@@ -1,0 +1,6 @@
+class AddColsToDistpatch < ActiveRecord::Migration
+  def change
+    add_reference :distpatches, :agency, index: true
+    add_column :distpatches, :responder_id, :string, limit: 14, unique: true
+  end
+end

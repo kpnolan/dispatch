@@ -1,0 +1,5 @@
+class RemoveSummaryFromDistpatch < ActiveRecord::Migration
+  def change
+    remove_column :distpatches, :distpatch, :summary
+  end
+end

@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: agencies
+#
+#  id         :integer          not null, primary key
+#  code       :string(2)
+#  name       :string(63)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: MyString
+  name: MyString
+
+two:
+  code: MyString
+  name: MyString
