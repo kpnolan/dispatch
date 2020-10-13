@@ -11,7 +11,7 @@ gem 'pg'
 gem 'simple-rss'
 gem 'awesome_print'
 gem 'debugger'
-gem 'nokogiri'
+gem "nokogiri", ">= 1.10.8"
 gem 'pry'
 gem 'geokit'
 gem 'geokit-rails'
